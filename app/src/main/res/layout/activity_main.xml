@@ -16,4 +16,20 @@
         android:onClick="goToList"
         android:layout_height="wrap_content"
         android:layout_width="wrap_content"/>
-></LinearLayout>
+
+    <EditText
+        android:id="@+id/goto_list_map"
+        android:text="Click your address"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"/>
+
+    <Button
+        android:id="@+id/give_list_message"
+        android:text="Youranswer"
+        android:onClick="Answer"
+        android:hint="Click the address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+</LinearLayout>
